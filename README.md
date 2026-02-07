@@ -1,4 +1,4 @@
-﻿# **PIDI-BOX01**
+tely﻿# **PIDI-BOX01**
 ## **is a PI-ZERO 2W based modular DIN Rail controller SYSTEM**
 
 **OVERVIEW:**	
@@ -97,7 +97,8 @@
 
 `	`and internal, potential free power source (200mA) 4-8V DC
 
-`	`There are two versions of the ADC 4: A1 is assembled and tested.  A2 is only 	available as a KICAD design and has not yet been manufactured.
+`	`There are two versions of the ADC 4: A1 is assembled and tested.  
+` `A2 is only available as a KICAD design and has not yet been manufactured.
 
 `	`This version is optimized and can be addressed via four I2C addresses.
 
