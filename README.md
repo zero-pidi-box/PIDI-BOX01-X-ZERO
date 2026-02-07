@@ -5,8 +5,7 @@ tely﻿# **PIDI-BOX01**
 
 `	`Instead of using one controller box with a fixed number of IO’s, this system is 	modular. The controller module contains a minimum of interfaces and is 	expandable with a lot of IO MODULES like:
 
-`		 `RELAYS /SSR , optical INPUTS,  ANALOG inputs, light sensors RF-			transceivers and much more.
- 
+`		 `RELAYS /SSR , optical INPUTS,  ANALOG inputs, light sensors RF-			transceivers and much more. \\
  
  
 `	`All modules are connected to the controller module via a I2C-Bus.
