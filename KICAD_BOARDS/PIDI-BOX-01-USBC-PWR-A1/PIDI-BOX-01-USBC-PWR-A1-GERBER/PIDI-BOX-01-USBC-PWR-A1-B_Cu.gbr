@@ -1,0 +1,47 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2025-12-26T20:23:21+00:00*%
+%TF.ProjectId,PIDI-BOX-01-USBC-PWR-A1,50494449-2d42-44f5-982d-30312d555342,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2025-12-26 20:23:21*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ViaPad*%
+%ADD11C,0.800000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD12C,0.600000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J2,1,Pin_1*%
+%TO.N,Net-(J2-Pin_1)*%
+X91884500Y-85674200D03*
+%TD*%
+%TO.P,J3,1,Pin_1*%
+%TO.N,Net-(J3-Pin_1)*%
+X100444300Y-85674200D03*
+%TD*%
+D11*
+%TO.N,Net-(J2-Pin_1)*%
+X98679000Y-86182200D03*
+X94386400Y-85293200D03*
+%TD*%
+D12*
+%TO.N,Net-(J2-Pin_1)*%
+X94386400Y-85293200D02*
+X97790000Y-85293200D01*
+X92265500Y-85293200D02*
+X91884500Y-85674200D01*
+X97790000Y-85293200D02*
+X98679000Y-86182200D01*
+%TD*%
+M02*

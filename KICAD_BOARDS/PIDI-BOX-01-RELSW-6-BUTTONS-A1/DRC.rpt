@@ -1,0 +1,100 @@
+** Drc report for PIDI-BOX-01-RELSW-6-BUTTONS-A1.kicad_pcb **
+** Created on 2025-09-23T11:18:20+0100 **
+
+** Found 23 DRC violations **
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(104,4668 mm, 88,5748 mm): Kreis von S5 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,1650 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,2250 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,3450 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,4650 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,5850 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,7050 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 82,8250 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 84,7050 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(131,5058 mm, 82,9250 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 88,7476 mm): Abschnitt auf Edge.Cuts
+    @(131,5058 mm, 85,4650 mm): Abschnitt von J3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 52,6502 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 52,7102 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 52,8302 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 52,9502 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 53,0702 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 53,1902 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 53,3102 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(125,5058 mm, 55,1902 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(131,5058 mm, 53,4102 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(125,9332 mm, 50,6984 mm): Abschnitt auf Edge.Cuts
+    @(131,5058 mm, 55,9502 mm): Abschnitt von J2 auf F.Silkscreen
+[lib_footprint_mismatch]: Footprint "PinHeader_1x02_P2.54mm_Horizontal" stimmt nicht mit Kopie in Bibliothek "Connector_PinHeader_2.54mm" überein.
+    Lokale Überschreibung; warning (excluded)
+    @(121,4058 mm, 82,5450 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint "PinHeader_1x02_P2.54mm_Horizontal" stimmt nicht mit Kopie in Bibliothek "Connector_PinHeader_2.54mm" überein.
+    Lokale Überschreibung; warning (excluded)
+    @(121,4058 mm, 53,0302 mm): Footprint J2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

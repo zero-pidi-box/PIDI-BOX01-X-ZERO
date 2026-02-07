@@ -1,0 +1,14 @@
+** Drc report for HS1-CTR-ADAPT-I2C-A3.kicad_pcb **
+** Created on 2025-09-03T16:31:46+0100 **
+
+** Found 0 DRC violations **
+
+** Found 1 unconnected pads **
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(114,5000 mm, 58,4125 mm): Pad 2 [Net-(D4-A)] von D4 auf F.Cu
+    @(116,1000 mm, 58,3750 mm): Pad 2 [Net-(D4-A)] von R10 auf F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

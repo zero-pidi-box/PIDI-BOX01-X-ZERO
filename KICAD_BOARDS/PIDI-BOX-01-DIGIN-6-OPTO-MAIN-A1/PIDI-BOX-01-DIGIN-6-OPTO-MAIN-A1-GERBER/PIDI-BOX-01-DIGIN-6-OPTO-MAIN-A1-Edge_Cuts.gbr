@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2025-12-26T20:16:36+00:00*%
+%TF.ProjectId,PIDI-BOX-01-DIGIN-6-OPTO-MAIN-A1,50494449-2d42-44f5-982d-30312d444947,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2025-12-26 20:16:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X106807000Y-55956200D02*
+X192807000Y-55956200D01*
+X192807000Y-88956200D01*
+X106807000Y-88956200D01*
+X106807000Y-55956200D01*
+M02*

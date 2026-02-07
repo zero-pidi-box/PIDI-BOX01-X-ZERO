@@ -1,0 +1,106 @@
+** Drc report for HS1-CTR-ADC-4-BASIS-A2.kicad_pcb **
+** Created on 2025-09-03T22:09:10+0100 **
+
+** Found 25 DRC violations **
+[track_dangling]: Leiterbahn hat unverbundenes Ende
+    Lokale Überschreibung; warning (excluded)
+    @(141,3510 mm, 66,2686 mm): Leiterbahn [Net-(J2-Pin_4)] auf F.Cu, Länge 0,0014 mm
+[courtyards_overlap]: Abstandsflächenüberschneidung
+    Regel: Einschränkungen aus Platinenkonfiguration zur Abstandsfläche; error (excluded)
+    @(117,3000 mm, 75,7000 mm): Footprint IC1
+    @(124,9000 mm, 69,2500 mm): Footprint C20
+[courtyards_overlap]: Abstandsflächenüberschneidung
+    Regel: Einschränkungen aus Platinenkonfiguration zur Abstandsfläche; error (excluded)
+    @(132,9500 mm, 72,8700 mm): Footprint D3
+    @(124,9000 mm, 69,2500 mm): Footprint C20
+[courtyards_overlap]: Abstandsflächenüberschneidung
+    Regel: Einschränkungen aus Platinenkonfiguration zur Abstandsfläche; error (excluded)
+    @(188,1632 mm, 59,7916 mm): Footprint J6
+    @(188,1632 mm, 74,9808 mm): Footprint J7
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(182,8632 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(192,9632 mm, 57,2516 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(193,0232 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(182,8632 mm, 87,6808 mm): Abschnitt von J7 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(192,9632 mm, 72,4408 mm): Abschnitt von J7 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(193,0232 mm, 87,6808 mm): Abschnitt von J7 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(106,9508 mm, 57,2008 mm): Abschnitt von J8 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(106,9508 mm, 67,3608 mm): Abschnitt von J8 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck von Platinenkante abgeschnitten
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(106,9616 mm, 56,0070 mm): Rechteck auf Edge.Cuts
+    @(117,1108 mm, 57,2008 mm): Abschnitt von J8 auf F.Silkscreen
+[lib_footprint_mismatch]: Footprint "PinSocket_1x10_P2.54mm_Vertical" stimmt nicht mit Kopie in Bibliothek "Connector_PinSocket_2.54mm" überein.
+    Lokale Überschreibung; warning (excluded)
+    @(158,3436 mm, 83,3882 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint "PinSocket_1x02_P2.54mm_Vertical" stimmt nicht mit Kopie in Bibliothek "Connector_PinSocket_2.54mm" überein.
+    Lokale Überschreibung; warning
+    @(150,5970 mm, 71,1508 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint "PinHeader_2x03_P2.54mm_Vertical" stimmt nicht mit Kopie in Bibliothek "Connector_PinHeader_2.54mm" überein.
+    Lokale Überschreibung; warning
+    @(134,4676 mm, 64,8462 mm): Footprint J2
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(160,2740 mm, 77,1652 mm): Referenzfeld von R14
+    @(159,6736 mm, 82,1182 mm): Abschnitt von J1 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(159,6736 mm, 82,1182 mm): Abschnitt von J1 auf F.Silkscreen
+    @(160,2232 mm, 70,1802 mm): Referenzfeld von R13
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(182,8632 mm, 72,4408 mm): Abschnitt von J7 auf F.Silkscreen
+    @(182,8632 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(193,0232 mm, 87,6808 mm): Abschnitt von J7 auf F.Silkscreen
+    @(182,8632 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(192,9632 mm, 72,4408 mm): Abschnitt von J7 auf F.Silkscreen
+    @(182,8632 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(182,8632 mm, 72,4408 mm): Abschnitt von J7 auf F.Silkscreen
+    @(182,8632 mm, 57,2516 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(193,0232 mm, 87,6808 mm): Abschnitt von J7 auf F.Silkscreen
+    @(193,0232 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(192,9632 mm, 72,4408 mm): Abschnitt von J7 auf F.Silkscreen
+    @(193,0232 mm, 72,4916 mm): Abschnitt von J6 auf F.Silkscreen
+[silk_overlap]: Bestückungsdrucküberlappung
+    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning (excluded)
+    @(182,8632 mm, 57,2516 mm): Abschnitt von J6 auf F.Silkscreen
+    @(192,9632 mm, 72,4408 mm): Abschnitt von J7 auf F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

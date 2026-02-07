@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2025-12-26T20:19:53+00:00*%
+%TF.ProjectId,PIDI-BOX-01-MAIN-1-PZ2_ESP-A1,50494449-2d42-44f5-982d-30312d4d4149,01*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2025-12-26 20:19:53*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X40092600Y-59883800D02*
+X90012600Y-59883800D01*
+X90012600Y-146183800D01*
+X40092600Y-146183800D01*
+X40092600Y-59883800D01*
+M02*

@@ -1,0 +1,255 @@
+(footprint "SOT65P210X110-6N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PUMH10, Digital Transistor, NPN 100mA 50V 2.2k, 6-Pin SOT-363")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "c05fa079-0c4f-4e19-8497-056cc746174d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT65P210X110-6N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a894b4a0-a8c9-47c4-9168-178311d1cd6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35339110-7a5f-4586-8ed3-3ded5bcfe17a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PUMH10, Digital Transistor, NPN 100mA 50V 2.2k, Ratio Of 0.047, 6-Pin SOT-363"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "539a4f57-3043-49a7-8d03-c5f0d94a4212")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -1.225)
+		(end -0.45 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc66c625-1250-4a12-bb08-eb2e8e78847d")
+	)
+	(fp_line
+		(start -0.1 -1)
+		(end 0.1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05285ba4-caaa-4707-9fd2-8038ab9a1c34")
+	)
+	(fp_line
+		(start -0.1 1)
+		(end -0.1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14dc12ac-4acb-4cae-b38d-5787a398297f")
+	)
+	(fp_line
+		(start 0.1 -1)
+		(end 0.1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "632cf2e6-d466-4325-bc25-cceefdaa7831")
+	)
+	(fp_line
+		(start 0.1 1)
+		(end -0.1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b0c0e0c-21c7-42ab-b42b-ea3366b37ec4")
+	)
+	(fp_line
+		(start -1.7 -1.35)
+		(end 1.7 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "175a1a7c-b380-4f6e-bfb1-4321e07302b3")
+	)
+	(fp_line
+		(start -1.7 1.35)
+		(end -1.7 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03f562f9-e462-4665-99c2-3aa9a2f0f75b")
+	)
+	(fp_line
+		(start 1.7 -1.35)
+		(end 1.7 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bf60d3f-6d12-40db-b789-722d010961fd")
+	)
+	(fp_line
+		(start 1.7 1.35)
+		(end -1.7 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "490f29a8-c5ab-42bb-8509-2e1c7b1f15c6")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d84411a-d1aa-4403-9438-fdc7f8b7467c")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "039a4bd2-15ab-41f2-ae01-1c9b25e293e3")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e00a510-016a-4d4f-b738-c3622bb82775")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb1bda43-da20-4cdc-b493-4ce8f881c7b1")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "026d51f5-0afb-4f9e-9493-18708da45540")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 2.54 0)
+		(layer "F.Fab")
+		(uuid "84d6847c-9b05-4158-b5a0-f76b1a70b506")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 -0.65 90)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5622bc62-16d1-444a-be51-62e57377bbc4")
+	)
+	(pad "2" smd rect
+		(at -0.95 0 90)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0587eaa8-c0f4-4d52-a3d6-c5bf0bc9af6a")
+	)
+	(pad "3" smd rect
+		(at -0.95 0.65 90)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d65a07e1-ef68-4bfd-9460-91b39b3a9d38")
+	)
+	(pad "4" smd rect
+		(at 0.95 0.65 90)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac5da194-c42c-40b9-8f57-ecb6f801a691")
+	)
+	(pad "5" smd rect
+		(at 0.95 0 90)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "974b1341-ede0-420d-a7dc-5d3d7062203f")
+	)
+	(pad "6" smd rect
+		(at 0.95 -0.65 90)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f9981db9-b168-4058-a1b9-dbc5393c71cc")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/wolfgang/Documents/KiCad/Eigene-Bauteile/PUMH10/PUMH10,115.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

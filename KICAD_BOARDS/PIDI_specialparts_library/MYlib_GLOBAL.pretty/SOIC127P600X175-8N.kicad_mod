@@ -1,0 +1,212 @@
+(footprint "SOIC127P600X175-8N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.57666 -3.93916 0)
+		(layer "F.SilkS")
+		(uuid "ad6e8030-5862-4810-b6f0-262758cf548b")
+		(effects
+			(font
+				(size 1.001055 1.001055)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC127P600X175-8N"
+		(at 8.33145 3.66563 0)
+		(layer "F.Fab")
+		(uuid "6a6e8735-61ff-4e78-bfb8-f2145f3d0022")
+		(effects
+			(font
+				(size 1.000173 1.000173)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d76e28-d751-47b3-b824-19bf26242e2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "230404b7-f7c1-44a8-9cff-e49ce361cff9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.575 -2.45)
+		(end 1.575 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59cdf47a-ad7b-462c-8635-0cd46a28761e")
+	)
+	(fp_line
+		(start -1.575 2.45)
+		(end -1.575 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1857136f-4905-49ba-8877-ebb4dcbb27c8")
+	)
+	(fp_line
+		(start 1.575 -2.45)
+		(end 1.575 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "397ca528-16af-4ab2-be54-47ae01955035")
+	)
+	(fp_line
+		(start 1.575 2.45)
+		(end -1.575 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72630cd9-61ce-4d5a-b204-bcfaafad992d")
+	)
+	(fp_circle
+		(center -0.9 -1.9)
+		(end -0.676394 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "09d3cf2b-263f-4e1f-9920-f9c380e39596")
+	)
+	(fp_line
+		(start -3.75 -2.75)
+		(end 3.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8af5e55a-f81d-46f7-8237-123c1e8a90cd")
+	)
+	(fp_line
+		(start -3.75 2.75)
+		(end -3.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "776304b5-52e3-41c8-b427-b30e058865c9")
+	)
+	(fp_line
+		(start 3.75 -2.75)
+		(end 3.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fe4bfd9-34fe-4049-a5ed-7a6024de22f2")
+	)
+	(fp_line
+		(start 3.75 2.75)
+		(end -3.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4866125-f90c-4371-b496-3ad84639cd84")
+	)
+	(pad "1" smd rect
+		(at -2.7 -1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "09093c18-1dca-4893-b8da-dba0e98bd9d4")
+	)
+	(pad "2" smd rect
+		(at -2.7 -0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b71a6141-acd4-4fe1-9781-a6e8ca5f8cc4")
+	)
+	(pad "3" smd rect
+		(at -2.7 0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bff14978-e87d-4073-a1a0-899a551b0e93")
+	)
+	(pad "4" smd rect
+		(at -2.7 1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a898781b-628d-4fa0-9e67-6279d37ff204")
+	)
+	(pad "5" smd rect
+		(at 2.7 1.905 180)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "eec96a1c-236b-40f9-903c-7d49f3341c80")
+	)
+	(pad "6" smd rect
+		(at 2.7 0.635 180)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6ad19963-cfcd-49e6-a359-50236f4aa323")
+	)
+	(pad "7" smd rect
+		(at 2.7 -0.635 180)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b3543d9d-9265-4994-8581-429b66c7c1b5")
+	)
+	(pad "8" smd rect
+		(at 2.7 -1.905 180)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b6171213-6c77-474f-9b4b-70929252980e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/wolfgang/Documents/KiCad/Eigene-Bauteile/PCA9517AD_118/PCA9517AD_118.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

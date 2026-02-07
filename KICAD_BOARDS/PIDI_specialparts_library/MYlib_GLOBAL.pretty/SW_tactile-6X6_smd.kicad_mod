@@ -1,0 +1,236 @@
+(footprint "SW_tactile-6X6_smd"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile switch smd 6X6 mm")
+	(property "Reference" "REF**"
+		(at -0.025 -4.235 0)
+		(layer "F.SilkS")
+		(uuid "e94152d9-b9f0-42a1-8f7d-a8430b2875c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_4-1437565-9"
+		(at 0.4572 4.5212 0)
+		(layer "F.Fab")
+		(uuid "b3191a8b-3772-40e1-b5f0-e26156a1996c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbfdbb5a-b007-4b81-a748-16867300e44c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "for 6X6mm tactile switches"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87499778-4c8f-4005-9636-76eb7482f32f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98a4c6cc-620a-4cc4-846f-b61102c9461d")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a6b3e4e-4fcc-4521-bca8-86e0b5ac2ac5")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3e1cf06-3bc8-4089-8b60-8c221f9f66e7")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b66db1d4-f177-4ded-8ec0-dd0069a51db7")
+	)
+	(fp_circle
+		(center -5.75 -3.3)
+		(end -5.55 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "748a90d0-3bd5-4bae-a4ec-7c61e4b62c30")
+	)
+	(fp_line
+		(start -5.85 -3.25)
+		(end -5.85 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67546476-57ab-44d1-b3e4-ed3329d975f2")
+	)
+	(fp_line
+		(start -5.85 3.25)
+		(end 5.85 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2cb62c1-56f4-44ba-a6e4-41f510738712")
+	)
+	(fp_line
+		(start 5.85 -3.25)
+		(end -5.85 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d35ab57-4a6b-4de8-8aae-e9e15bd26a5a")
+	)
+	(fp_line
+		(start 5.85 3.25)
+		(end 5.85 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12cadf02-c1ca-438b-9972-08e0499ee46c")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34c71d90-741d-4bf7-9945-f59f7bb86ddd")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d980ecc-af82-40c9-8751-c373cea3d04b")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d42fbd88-df52-4ce2-8cf2-03fa5b2af8ab")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd28ff33-4002-4c5a-8131-ba648caf334d")
+	)
+	(fp_circle
+		(center -5.75 -3.3)
+		(end -5.5 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8db4bec8-0277-4d9d-9afb-1a9a9398a1c0")
+	)
+	(pad "1" smd rect
+		(at -4.3 -2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "56b0ca1a-f4aa-4a32-a68c-ddb4330ffb80")
+	)
+	(pad "2" smd rect
+		(at 4.3 -2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8a8deaa0-4c8f-46e1-937e-1c56118ca07a")
+	)
+	(pad "3" smd rect
+		(at -4.3 2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a6694f9e-c642-4d2d-b1f0-5481a13feccf")
+	)
+	(pad "4" smd rect
+		(at 4.3 2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4ddaadf6-bfb1-499d-b848-27fd3a9d6978")
+	)
+	(embedded_fonts no)
+	(model "Z:/TECHNIK PROJEKTE ab 2015/KiCad/MY_LIBRARY/MYlib_GLOBAL_3dshapes/SW_tactile-6X6_smd.stp"
+		(offset
+			(xyz 0 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

@@ -1,0 +1,222 @@
+(footprint "1206L05015YR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Fuse Resettable  Littlefuse")
+	(tags "Resettable Fuse")
+	(property "Reference" "F**"
+		(at 0.075 -3.025 0)
+		(layer "F.SilkS")
+		(uuid "f34c08a2-f2c8-491c-94a7-777832b734e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1206L05015YR"
+		(at -0.75 -5.225 0)
+		(layer "F.SilkS")
+		(uuid "5cf00977-d352-44d7-bdff-d2c6e56b44b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41b9b0f0-dba2-4bea-91ee-cee5faee080a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02eafcbf-1175-485f-94e2-23be6cb539b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -0.1)
+		(end -2.6 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "743d4bdb-6df0-4512-aa7e-9a18ff3cd69d")
+	)
+	(fp_line
+		(start -2.6 0.1)
+		(end -2.6 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f984745d-f7a5-4848-86cb-850805195aac")
+	)
+	(fp_line
+		(start 0 -0.725)
+		(end 0 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da23a16b-b85e-41d3-92e2-087786bc052f")
+	)
+	(fp_arc
+		(start -2.6 -0.1)
+		(mid -2.5 0)
+		(end -2.6 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4440a7e0-5b12-47d1-b859-389d96ea5e65")
+	)
+	(fp_arc
+		(start -2.6 0.1)
+		(mid -2.7 0)
+		(end -2.6 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15f069fa-0430-4ab7-8ca2-efd0aaf9be10")
+	)
+	(fp_line
+		(start -3.055 -1.91)
+		(end 3.055 -1.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "683046d3-abfb-439d-9d6d-7c00753a9db3")
+	)
+	(fp_line
+		(start -3.055 1.91)
+		(end -3.055 -1.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6a00357-033a-43b6-b754-c475a9d37ab1")
+	)
+	(fp_line
+		(start 3.055 -1.91)
+		(end 3.055 1.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "716e3a51-c3f7-4949-8a5c-e634292aad2a")
+	)
+	(fp_line
+		(start 3.055 1.91)
+		(end -3.055 1.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcaac209-f75b-4273-a2e3-5708d2dbbcb7")
+	)
+	(fp_line
+		(start -1.6 -0.825)
+		(end 1.6 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "340470a3-e295-49a6-be2c-73cf88beb909")
+	)
+	(fp_line
+		(start -1.6 0.825)
+		(end -1.6 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ee4e63e-dfa6-4a56-be73-bade411c7dec")
+	)
+	(fp_line
+		(start 1.6 -0.825)
+		(end 1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "996b1379-0b4c-4c90-bf49-dbb3f5b9572d")
+	)
+	(fp_line
+		(start 1.6 0.825)
+		(end -1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8affa85d-e32e-4541-982e-cf269d86a1e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.625 3.2 0)
+		(layer "F.Fab")
+		(uuid "1b047072-a3de-452f-a0a8-d3ff2a38dc25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.16 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9976ba23-9ed2-47a8-9cdc-dab6238c5f2f")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.16 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f87b14f4-994f-457d-865a-3aa90cc7db9c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/wolfgang/Documents/KiCad/Eigene-Bauteile/1206L075THYR/1206L075THYR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

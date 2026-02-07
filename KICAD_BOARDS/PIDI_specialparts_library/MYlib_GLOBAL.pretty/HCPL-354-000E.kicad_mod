@@ -1,0 +1,243 @@
+(footprint "HCPL-354-000E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HCPL-354-000E")
+	(tags "opto coupler")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ffc2779b-808a-4c5a-b43c-1c2ee9f2f383")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "HCPL-354-000E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "045785c9-c412-4103-84bd-86bac06605d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5b8a631-7465-4edc-8bfe-e7f2bd9d5ea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AC Opto coupler , SMD, NPN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55fe989f-299a-4164-9350-fda6dff18e85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 -1.945)
+		(end -2.2 -1.945)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d583bcf8-fda7-4337-b065-23715eebf9bf")
+	)
+	(fp_line
+		(start -1.85 -1.8)
+		(end 1.85 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a1a9a55-5268-4d4d-958c-bd6af6946408")
+	)
+	(fp_line
+		(start -1.85 1.8)
+		(end -1.85 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6fb2847-9ddf-4dd2-b337-61768bf448b8")
+	)
+	(fp_line
+		(start 1.85 -1.8)
+		(end 1.85 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60259de3-e8b5-41fa-a739-abb436233eb6")
+	)
+	(fp_line
+		(start 1.85 1.8)
+		(end -1.85 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84d46cd8-baa3-4a47-b585-abb25b977df9")
+	)
+	(fp_line
+		(start -4.2 -2.2)
+		(end 4.2 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aab39290-2880-43ac-8dda-54e3f0feb24a")
+	)
+	(fp_line
+		(start -4.2 2.2)
+		(end -4.2 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f062bb86-a2f3-4fe6-957c-ca13ded05276")
+	)
+	(fp_line
+		(start 4.2 -2.2)
+		(end 4.2 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1154d5ba-9e48-40a4-a649-bba3b8129666")
+	)
+	(fp_line
+		(start 4.2 2.2)
+		(end -4.2 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf821edd-ddaf-4a03-819d-1d7524fd35f1")
+	)
+	(fp_line
+		(start -2.2 -1.8)
+		(end 2.2 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f07f164-8f7b-4922-81be-5d23c0128f62")
+	)
+	(fp_line
+		(start -2.2 0.74)
+		(end 0.34 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b240e62-c927-4104-8dbc-65445c05e4d9")
+	)
+	(fp_line
+		(start -2.2 1.8)
+		(end -2.2 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e899f724-cb02-47a1-8d7c-83af7842c106")
+	)
+	(fp_line
+		(start 2.2 -1.8)
+		(end 2.2 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d074883-b887-42ac-83bc-ed4b14d25cd6")
+	)
+	(fp_line
+		(start 2.2 1.8)
+		(end -2.2 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8848bd9f-46c1-4659-9b8c-2fbda3aed846")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d2bf554c-7156-4664-8d57-50e627344cc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.075 -1.27 90)
+		(size 0.65 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "915d3c17-cefd-4f23-b8c6-3ac7767af027")
+	)
+	(pad "2" smd rect
+		(at -3.075 1.27 90)
+		(size 0.65 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74536cf2-a7b8-4d7b-9100-7b90e6ba608b")
+	)
+	(pad "3" smd rect
+		(at 3.075 1.27 90)
+		(size 0.65 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4302ff9-88a5-4d79-bffb-084801ef8a7c")
+	)
+	(pad "4" smd rect
+		(at 3.075 -1.27 90)
+		(size 0.65 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "003ed748-7e44-4c47-9238-b162bef36524")
+	)
+	(embedded_fonts no)
+	(model "Z:/TECHNIK PROJEKTE ab 2015/KiCad/MY_LIBRARY/MYlib_GLOBAL_3dshapes/HCPL-354-000E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
