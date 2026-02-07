@@ -59,6 +59,7 @@ tely﻿# **PIDI-BOX01**
 
 `	`1x I2C-BUS  6 pin  IDC socket
 
+
 **DIGITAL 6 port  Relays  (on):**
 **\
 `	`CNMB enclosure Size 2:  36mm
@@ -73,6 +74,8 @@ tely﻿# **PIDI-BOX01**
 
 `	`<a name="_hlk219719160"></a>**Front panel** with 6 TEST BUTTONs for the outputs and status LED’s
 
+
+
 **DIGITAL 6 port OPTICAL  INPUTS:**
 
 `	`CNMB enclosure Size 2:  36mm
@@ -84,6 +87,8 @@ tely﻿# **PIDI-BOX01**
 `	`IO Controller  PCF8574A  (PCF8574)
 
 `	`Front panel with 6 TEST BUTTONs for the outputs and status LED’s
+
+
 
 **ADC 4 CHANNEL (ADS1115)  potential-free inputs:**
 
@@ -116,6 +121,8 @@ should be available  in the directory DOCUMENTS .
 
 I will add to the documentation from time to time.
 
+
+
 **General information:**
 
 The hardware I am designing since 3 years for a garden watering system
@@ -141,6 +148,7 @@ relays up to 48V.
 All analog and direct inputs are ESD protected (TVS 12 V bidirectional)
 
 Not all components are fully optimized, it’s up to the users to do that.
+
 
 **The project name:**
 
