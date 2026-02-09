@@ -1,186 +1,165 @@
-tely﻿# **PIDI-BOX01**
-## **is a PI-ZERO 2W based modular DIN Rail controller SYSTEM**
+﻿# PIDI-BOX01
+# A PI-ZERO 2W based modular DIN Rail controller SYSTEM
+
+## OVERVIEW:
+Instead of using one controller box with a fixed number of IO’s, 
+this system is modular,  
+The controller module contains a minimum of interfaces and is expandable with a lot of
+* IO MODULES like:  
+* **RELAYS /SSR ,**
+* **optical INPUTS,**
+* **ANALOG inputs,**
+* **light sensors RF-transceivers** 
+* and much more.
+
+
+
+All modules are connected to the controller module via a I2C-Bus.  
+Flat cable 6 pin IDC.  
+The i2c-bus is 5V buffered:  GND, +5V supplied by the controller  
+SDA,SCL and a bidirectional line, usable for interrupts or any control.  
+**System supply voltage:  12 V DC (the Controller module only: 10 to 28V)**  
+
+### **Mechanical:**  
+DIN Rail enclosures:   Camdenboss CNMB/2/KIT and CNMB/3/KIT  
+make sure you use this enclosures, all board are designed for that enclosures !!  
+
+---  
+---   
+
+#### **MODULES:**
+
+**PI Zero 2W based controller:**  
+
+CNMB enclosure Size 3:  53,4mm  
+    
+TERMINALS:  
+2 pole terminal: Supply voltage: 10V DC to 24V DC (this module only, or 5V with USB-C adapter)  
+2 pole terminal: digital OPTO-INPUT  
+3 pole terminal: 1-WIRE interface  
+All terminals support 26-12AWG calbles
+
+Front Panel with:
+3 touch keys,  
+128x64 OLED display  
+and 6 led’s (reverse mounted)
+
+**On board:**  
+RTC 3132 with Bat. CR2032, status led’s, beeper, I2C driver for external bus,  
+I2C buffer, DC/DC converter 12 to 5V 3A.  
+Front panel connecto.  
+   
+**PI Zero 2w module socket**. 
+   
+**IO:**  
+1x digital OPTO in  
+1x 1-WIRE interface (GND, sig.,+5V)  
+1x UART 4 pin header (no terminal)  
+1x I2C-BUS  6 pin  IDC socket.  
  
-**OVERVIEW:**	
-
-`	`Instead of using one controller box with a fixed number of IO’s, this system is 	modular. The controller module contains a minimum of interfaces and is 	expandable with a lot of IO MODULES like:
-
-`		 `RELAYS /SSR , optical INPUTS,  ANALOG inputs, light sensors RF-			transceivers and much more. \\
+---  
  
- 
-`	`All modules are connected to the controller module via a I2C-Bus.
-
-`	`Flat cable 6 pin IDC.
-
-`	`The i2c-bus is 5V buffered : GND, +5V supplied by the controller, SDA,SCL 
-
-`	`and a bidirectional line usable for interrupts or any control. 
-**\
-`	`System supply voltage:  12 V DC (Controller 10 to 28V)
-
-`	`**Mechanical:**
-
-`	`DIN Rail enclosures, Camdenboss CNMB/2/KIT and CNMB/3/KIT
-
-`	`(make sure you use this enclosures, all board are designed for that type)	
-
-**MODULES:**
-
-**PI Zero 2W based controller:**
-
-`	`<a name="_hlk219661776"></a>CNMB enclosure Size 3:  53,4mm
-
-`	`<a name="_hlk219661722"></a>Supply voltage: 10V DC to 24V DC (this module only, or 5V wit USB-C adapter)
-
-`			    `<a name="_hlk219718966"></a>2 pole terminal (26-12AWG)
-
-`	`**Front Panel** with 3 touch keys, 128x64 OLED display and 6 led’s (reverse)
-
-
-
-`	`**On board:** 
-
-`	`RTC 3132 with Bat. CR2032, status led’s, beeper, I2C driver for external bus,
-
-`	`I2C buffer, DC/DC converter 12 to 5V 3A.
-
-`	`Front panel connector, **PI Zero 2w module socket**.
-
-`	`**IO:** 
-
-`	`1x digital OPTO in  <a name="_hlk219718637"></a>2 pole terminal (26-12AWG)
-
-`	`1x 1-WIRE interface (GND, sig.,+5V) (26-12AWG)
-
-`		`3 pole terminal (26-12AWG)
-
-`	`1x UART 4 pin header (no terminal)
-
-`	`1x I2C-BUS  6 pin  IDC socket
-
 
 **DIGITAL 6 port  Relays  (on):**
-**\
-`	`CNMB enclosure Size 2:  36mm
-**\
-`	`Supply voltage: 12V DC
 
-`	`2x 6 pole terminal (26-12AWG) for power and RELAY outs
+CNMB enclosure Size 2:  36mm  
+Supply voltage: 12V DC  
+2x 6 pole terminal for power and RELAY outs  
+IO Controller  PCF8574A  (PCF8574)  
+After PW-on all relays in off state. Is controlled by bit 7.  
+**Front panel** with 6 TEST BUTTONs for the outputs and status LED’s  
 
-`	`IO Controller  PCF8574A  (PCF8574)
-
-`	`After PW-on all relays in off state. Is controlled by bit 7.
-
-`	`<a name="_hlk219719160"></a>**Front panel** with 6 TEST BUTTONs for the outputs and status LED’s
-
-
+---  
 
 **DIGITAL 6 port OPTICAL  INPUTS:**
 
-`	`CNMB enclosure Size 2:  36mm
+CNMB enclosure Size 2:  36mm  
+Supply voltage: 12V DC  
+2x 6 pole terminal for power and INPUTS  
+IO Controller  PCF8574A  (PCF8574)  
+Front panel with 6 TEST BUTTONs for the outputs and status LED’s  
 
-`	`Supply voltage: 12V DC
+---  
 
-`	`2x 6 pole terminal (26-12AWG) for power and INPUTS
+**ADC 4 CHANNEL (ADS1115)  potential-free inputs:**  
+  
+CNMB enclosure Size 2:  36mm  
+Supply voltage: 12V DC  
+2 pole terminal for power  
+6 pole terminal for 4 channels of ADC (4), GND and power source.  
+    
+Internal power source (200mA) 4-8V DC (for sensors on analog 0 to 3)  
+  
+ADC input and power source are potential free from the system.  
+The I2C interface is isolated from the system bus  
+ with a **ADUM1250** from Analog Devices.  
 
-`	`IO Controller  PCF8574A  (PCF8574)
+There are two versions of the ADC 4:  
+A1 is assembled and tested.  
+A2 only is available as a KICAD design and has not yet been assembled or tested.  
+The A2 version is optimized and can be addressed via  
+**four I2C addresses**:    
+0x48: ADDR Pin with  GND , 0x49: ADDR Pin with   VDD  
+0x4A: ADDR Pin with   SDA, 0x4B: ADDR Pin with   SCL  
 
-`	`Front panel with 6 TEST BUTTONs for the outputs and status LED’s
+---  
 
+**This was just a short summary for quick information.**      
+For more details please read the documentation  
+available  in the directory DOCUMENTS.  
+From time to time I will add individual documentation or data sheets.  
 
+**General information:**  
+The hardware I am designing since 3 years for a garden watering system  
+in different versions.  
+All modules have been tested in reality.  
+Code and documents are  **without any guarantee** for any user.
 
-**ADC 4 CHANNEL (ADS1115)  potential-free inputs:**
+**NO  VDE, CE or other certificates are available.**   
+Do not use relay outputs and inputs with high voltage or on main supply.
 
-`	`CNMB enclosure Size 2:  36mm
-
-`	`Supply voltage: 12V DC
-
-`	`2 pole terminal <a name="_hlk219719466"></a>(26-12AWG) for power 
-
-`	`6 pole terminal (26-12AWG) for 4 channels of ADC (4), GND 
-
-`	`and internal, potential free power source (200mA) 4-8V DC
-
-`	`There are two versions of the ADC 4: A1 is assembled and tested.  
-` `A2 is only available as a KICAD design and has not yet been manufactured.
-
-`	`This version is optimized and can be addressed via four I2C addresses.
-
-`	`0x48: ADDR Pin with  GND , 0x49: ADDR Pin with   VDD 
-
-`	`0x4A: ADDR Pin with   SDA, 0x4B: ADDR Pin with   SCL
-
-
-
-This is a short summary for quick information only. 
-
-More details for the modules (description), how to assemble the modules and… 
-
-should be available  in the directory DOCUMENTS .
-
-I will add to the documentation from time to time.
-
-
-
-**General information:**
-
-The hardware I am designing since 3 years for a garden watering system
-
-in different versions.
-
-All modules are tested in reality,  but **without any guarantee** if you copy it.
-
-NO  VDE, CE or other certificates are available. Do not use relay outputs and inputs with high voltage or on main supply.
-
-**All printed boards are designed with KICAD 9** including labels, front panels and some drawings for plug breakthroughs .
-
-Not included are the BOM’s of circuit boards. 
-
+**All printed boards are designed with KICAD 9**  
+including labels, front panels and some drawings for buttons breakthroughs.  
+There are no bom's for the boards.  
 They should be generated by the user themselves in KICAD.
 
-Module BOM’s are available  in the documents area.
+**Module BOM’s are available in the documents area.**  
 
-Al outputs or inputs are designed for low voltage up to 24V, 
-
-relays up to 48V. 
-
+**Al outputs or inputs** are designed for low voltage up to 24V, relays up to 48V.   
 All analog and direct inputs are ESD protected (TVS 12 V bidirectional)
-
 Not all components are fully optimized, it’s up to the users to do that.
 
+**Meaning of the project name:**
 
-**The project name:**
+   **PIDI-BOX**  is the project name.  
+   That means : Raspberry **PI** Zero **DI**nrail **-BOX**  
 
-**PIDI-BOX**  is the project name. That means : Raspberry **PI** Zero **DI**nrail **-BOX**
-
-**Where to get all Parts?** 
-
+**Where to get all Parts?**  
 The printed boards I always order from  JLCPCB  <https://jlcpcb.com/es?from=Wolfgang>  
-
-Quality and service is excellent, parts are inexpensive and a very fast delivery.
-
+Quality and service is excellent, parts are inexpensive with a very fast delivery.  
 ![](data:image/png;base64,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)
 
 90% of the parts (IC, led ..)  I bought via AliExpress. 
 
-The **CNMB** enclosures you **only can get from a Camdenboss distributor**.
+The **CNMB** enclosures you **only can get from a Camdenboss distributor**.  
+The 5.08mm Terminals you can buy from camdenbos or other manufacturers.
 
-The 5.08mm Terminals you can use from some manufacturers.
+**Just by the way:**  
+I developed the system for myself. In a fiew places it is not optimally dimensioned.  
+It's up to you to optimize.  
+For me it is sufficient because everything works in practical use.
 
-**Just by the way:**
-
-I know, nothing is perfect. But you can help to make it better. 
-
-Hopefully there are some people interested in the design, I developed for my own use over three years. Just by the way, the documentation is not build for production. There are a lot of document, and hints in the photos or as text. Before you start, try to understand my ideas, then the documentation should be enough.
-
-All GERBER Files are actual, so you can start their production direct.
+I would be happy to hear from interested co-developers or users of my hardware.  
+That would be an incentive for me to continue and expand the system with additional hardware.  
+By the way, documentation is not intended for production.  
+Therefore only the most necessary in my opinion.  
+There are many documents and clues in the photos or as text.  
+Before you start, try to understand my ideas, then the documentation should be enough.  
+All GERBER Files are actual, so you can start an assembly imediately.  
 
 With the age of 76,  I don't know how much longer I can work on the project.
-
 I would be happy if someone continued it.
 
 If you badly need help, here my special e-mail :  <PIDI-BOX@gmx.net>.
-
 I will try to respond as soon as possible, but it can take a while.
-
-Thank you for your understanding.
+Regards Wolfgang.
