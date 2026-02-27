@@ -7,6 +7,9 @@
 	(title_block
 		(date "01.08.2024")
 		(rev "A1")
+		(comment 2 "To be installed in system with mounting frame")
+		(comment 3 "Monting space for 128x64  OLED display ")
+		(comment 4 "Frontpanel with 3 senso buttons")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
