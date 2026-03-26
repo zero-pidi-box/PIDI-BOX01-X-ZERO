@@ -160,6 +160,6 @@ All GERBER Files are actual, so you can start an assembly imediately.
 With the age of 76,  I don't know how much longer I can work on the project.  
 I would be happy if someone continued it.  
 
-If you badly need help, here my special project e-mail :  <PIDI-BOX@gmx.net>.  
+If you badly need help, here my special project e-mail :  <PIDI-BOX01@gmx.net>.  
 I will try to respond as soon as possible, but it can take a while.  
 Wolfgang Mansfeld 02-2026 
